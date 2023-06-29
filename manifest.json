@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Incognito Blocker",
+    "version": "2.0",
+    "description": "Closes an Incognito tab as soon as you open it",
+    "author": "2emk7",
+    "permissions": [
+      "tabs",
+      "contextMenus",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "128": "logo.png"
+    }
+  }
+  
